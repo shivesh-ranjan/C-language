@@ -10,8 +10,8 @@ bool checkYear(int year){
 	return false;
 }
 int main(){
-	int year;
-	scanf("%d",&year);
+	int d,m,year;
+	scanf("%d/%d/%d",&d,&m,&year);
   	bool ans=checkYear(year);
   	if(ans==true){
       	printf("Leap Year");
